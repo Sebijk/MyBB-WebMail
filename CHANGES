@@ -1,0 +1,36 @@
+Versions-History:
+
+Version 0.52 Beta
+
+ - Es wird geprüft, ob Re, AW, Fw oder Fwd bereits
+   existiert, um das doppelte hereinschieben zu vermeiden.
+ - Diverse strip_tags hinzugefügt
+ - HTML-Mails werden jetzt in Frames angezeigt
+ - Templates werden jetzt mitinstalliert
+ - Angepasst für MyBB 1.6
+
+
+Version 0.51 Beta
+
+ - Bug: "Certificate Error" behoben
+ - Bug: "Logout Fehler" behoben
+ - Bug: "Falsches PW bei htaccess" behoben
+ - Bug: "HTML-Problem" behoben
+ - Es erscheint nun beim fehlgeschlagenen Login eine 
+   schönere Fehlermeldung
+ - Es wird überprüft, ob IMAP existiert oder nicht und 
+   es wird die entsprechende Fehlermeldung ausgegeben.
+ - E-Mail Adressen werden auf Richtigkeit überprüft
+ - Die IMAP-Funktionen werden jetzt in Klassen
+   ausgelegt, dies ist ganz nützlich für PHP-
+   Programmierer, die eine eigene Klasse, statt
+   die IMAP-Funktionen verwenden wollen, kurz
+   gesagt: Es ist objektorientierter geworden.
+   
+   Geänderte Datei: webmail.php
+   Neue Datei: inc/class_webmail.php
+   
+
+Version 0.50 Beta
+
+ - Erste Betaversion
